@@ -1,0 +1,8 @@
+# Environment variables
+.env
+
+# Learn Claude Code directory
+learn-claude-code/
+
+# Local config
+.trae.rules/
