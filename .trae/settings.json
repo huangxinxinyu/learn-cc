@@ -1,0 +1,5 @@
+{
+  "trae.rules.autoLoad": true,
+  "trae.ai.enabled": true,
+  "trae.ai.codeIndex.enabled": true
+}
