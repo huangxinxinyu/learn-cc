@@ -23,6 +23,12 @@ MODULES = {
         "module": "s02.tool_use",
         "entry": "main"
     },
+    "s03": {
+        "name": "s03-todo-write",
+        "description": "Session Planning with TodoWrite",
+        "module": "s03.todo_write",
+        "entry": "main"
+    },
 }
 
 def show_help():
