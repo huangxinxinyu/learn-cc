@@ -13,8 +13,14 @@ load_dotenv(override=True)
 MODULES = {
     "s01": {
         "name": "s01-the-agent-loop",
-        "description": "Agent Loop 基础实现",
+        "description": "Agent Loop 基础实现（单工具）",
         "module": "s01_the_agent_loop.agent_loop",
+        "entry": "main"
+    },
+    "s02": {
+        "name": "s02-tool-use",
+        "description": "多工具支持（bash, read, write, edit）",
+        "module": "s02.tool_use",
         "entry": "main"
     },
 }
